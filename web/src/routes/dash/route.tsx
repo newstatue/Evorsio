@@ -1,12 +1,5 @@
-import {
-  createFileRoute,
-  Outlet,
-} from "@tanstack/react-router"
-import {
-  SidebarInset,
-  SidebarProvider,
-
-} from "@/components/ui/sidebar"
+import { createFileRoute, Outlet } from "@tanstack/react-router"
+import { SidebarInset, SidebarProvider } from "@/components/ui/sidebar"
 import { type CSSProperties } from "react"
 import { DashHeader } from "@/components/layout/dash/dash-header.tsx"
 import { DashSidebar } from "@/components/layout/dash/dash-sidebar.tsx"
